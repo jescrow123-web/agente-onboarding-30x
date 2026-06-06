@@ -6,7 +6,10 @@ import cohere
 # =================================================================
 # CONFIGURACIÓN
 # =================================================================
-co = cohere.ClientV2("tOdiU9E6g5kt6FKi6m1YJobVLmecj3PEMG9LI1Es")
+from dotenv import load_dotenv
+load_dotenv()
+co = cohere.ClientV2(os.getenv("COHERE_API_KEY"))
+
 
 # =================================================================
 # LEER LOS PDFs
