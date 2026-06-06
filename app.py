@@ -3,6 +3,10 @@ import pypdf
 import os
 import cohere
 
+# Agente de Onboarding 30X
+# Construido con Streamlit + Cohere API + PyPDF
+# Autor: Jesus Crowther
+
 # =================================================================
 # CONFIGURACIÓN
 # =================================================================
