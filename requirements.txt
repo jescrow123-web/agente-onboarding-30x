@@ -1,4 +1,7 @@
-streamlit
-pypdf
-cohere
-python-dotenv
+streamlit  # interfaz web del agente
+
+pypdf # lectura y extracción de texto de PDFs
+
+cohere # modelo de lenguaje para respuestas inteligentes
+
+python-dotenv # manejo seguro de variables de entorno
