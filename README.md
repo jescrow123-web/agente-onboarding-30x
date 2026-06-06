@@ -3,6 +3,15 @@
 Agente conversacional que responde preguntas sobre la organización 30X basándose 
 exclusivamente en los documentos internos de onboarding.
 
+## URL del agente online
+https://agente-30x.streamlit.app
+
+## Tecnologías usadas
+- Python 3.14
+- Streamlit — interfaz web
+- Cohere API — modelo de lenguaje
+- PyPDF — lectura de documentos PDF
+- python-dotenv — manejo seguro de credenciales
 ## ¿Cómo correrlo?
 
 ### 1. Requisitos
